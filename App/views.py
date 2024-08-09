@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from .serializers import SongSerializer,SingerSerializer
-from . models import Song,Singer
+from .models import Song,Singer
 from rest_framework import viewsets
 # Create your views here.
 
